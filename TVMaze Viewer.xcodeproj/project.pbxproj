@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD2ECFD4D7EBF425ACC3F45 /* Pods_TVMaze_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63057F9867EA8454CDF7A8B3 /* Pods_TVMaze_Viewer.framework */; };
+		2CDBCEECA97AEC964666D8E5 /* Pods_TVMaze_ViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD452C1BF68278CFA861B57 /* Pods_TVMaze_ViewerTests.framework */; };
+		38BFE26123C220EE00D9FADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26023C220EE00D9FADE /* AppDelegate.swift */; };
+		38BFE26323C220EE00D9FADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26223C220EE00D9FADE /* SceneDelegate.swift */; };
+		38BFE26523C220EE00D9FADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26423C220EE00D9FADE /* ViewController.swift */; };
+		38BFE26823C220EE00D9FADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE26623C220EE00D9FADE /* Main.storyboard */; };
+		38BFE26B23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26923C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld */; };
+		38BFE26D23C220F200D9FADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE26C23C220F200D9FADE /* Assets.xcassets */; };
+		38BFE27023C220F200D9FADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE26E23C220F200D9FADE /* LaunchScreen.storyboard */; };
+		38BFE27B23C220F300D9FADE /* TVMaze_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE27A23C220F300D9FADE /* TVMaze_ViewerTests.swift */; };
+		38BFE28623C220F300D9FADE /* TVMaze_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE28523C220F300D9FADE /* TVMaze_ViewerUITests.swift */; };
+		9D9D09A19AA084B47BDFAF13 /* Pods_TVMaze_ViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D77FF0022FDBD3BC84E24C /* Pods_TVMaze_ViewerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38BFE27723C220F300D9FADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BFE25523C220ED00D9FADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BFE25C23C220EE00D9FADE;
+			remoteInfo = "TVMaze Viewer";
+		};
+		38BFE28223C220F300D9FADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38BFE25523C220ED00D9FADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38BFE25C23C220EE00D9FADE;
+			remoteInfo = "TVMaze Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01383317DE0344D80B6DC26A /* Pods-TVMaze Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze Viewer.release.xcconfig"; path = "Target Support Files/Pods-TVMaze Viewer/Pods-TVMaze Viewer.release.xcconfig"; sourceTree = "<group>"; };
+		0CD452C1BF68278CFA861B57 /* Pods_TVMaze_ViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVMaze_ViewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D299CF58A413511E1B257F7 /* Pods-TVMaze ViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze ViewerUITests.release.xcconfig"; path = "Target Support Files/Pods-TVMaze ViewerUITests/Pods-TVMaze ViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38BFE25D23C220EE00D9FADE /* TVMaze Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVMaze Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE26023C220EE00D9FADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BFE26223C220EE00D9FADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38BFE26423C220EE00D9FADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38BFE26723C220EE00D9FADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BFE26A23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVMaze_Viewer.xcdatamodel; sourceTree = "<group>"; };
+		38BFE26C23C220F200D9FADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BFE26F23C220F200D9FADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BFE27123C220F200D9FADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BFE27623C220F300D9FADE /* TVMaze ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVMaze ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE27A23C220F300D9FADE /* TVMaze_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMaze_ViewerTests.swift; sourceTree = "<group>"; };
+		38BFE27C23C220F300D9FADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BFE28123C220F300D9FADE /* TVMaze ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVMaze ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BFE28523C220F300D9FADE /* TVMaze_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMaze_ViewerUITests.swift; sourceTree = "<group>"; };
+		38BFE28723C220F300D9FADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63057F9867EA8454CDF7A8B3 /* Pods_TVMaze_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVMaze_Viewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1B0D0F406968CBAD2265C4 /* Pods-TVMaze ViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze ViewerTests.debug.xcconfig"; path = "Target Support Files/Pods-TVMaze ViewerTests/Pods-TVMaze ViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DCE0E0627D8F67756A8A6D6 /* Pods-TVMaze ViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze ViewerUITests.debug.xcconfig"; path = "Target Support Files/Pods-TVMaze ViewerUITests/Pods-TVMaze ViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86D77FF0022FDBD3BC84E24C /* Pods_TVMaze_ViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVMaze_ViewerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		944BF14A3CCF529C5FD10B85 /* Pods-TVMaze ViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze ViewerTests.release.xcconfig"; path = "Target Support Files/Pods-TVMaze ViewerTests/Pods-TVMaze ViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9FBF1ADD7D93FF2A22B911E /* Pods-TVMaze Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVMaze Viewer.debug.xcconfig"; path = "Target Support Files/Pods-TVMaze Viewer/Pods-TVMaze Viewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BFE25A23C220EE00D9FADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD2ECFD4D7EBF425ACC3F45 /* Pods_TVMaze_Viewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27323C220F300D9FADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDBCEECA97AEC964666D8E5 /* Pods_TVMaze_ViewerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27E23C220F300D9FADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D09A19AA084B47BDFAF13 /* Pods_TVMaze_ViewerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38BFE25423C220ED00D9FADE = {
+			isa = PBXGroup;
+			children = (
+				38BFE25F23C220EE00D9FADE /* TVMaze Viewer */,
+				38BFE27923C220F300D9FADE /* TVMaze ViewerTests */,
+				38BFE28423C220F300D9FADE /* TVMaze ViewerUITests */,
+				38BFE25E23C220EE00D9FADE /* Products */,
+				98D96DBCB924330895AA2D9B /* Pods */,
+				800D1CF5DD13C1DA9BD742E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		38BFE25E23C220EE00D9FADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE25D23C220EE00D9FADE /* TVMaze Viewer.app */,
+				38BFE27623C220F300D9FADE /* TVMaze ViewerTests.xctest */,
+				38BFE28123C220F300D9FADE /* TVMaze ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BFE25F23C220EE00D9FADE /* TVMaze Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE26023C220EE00D9FADE /* AppDelegate.swift */,
+				38BFE26223C220EE00D9FADE /* SceneDelegate.swift */,
+				38BFE26423C220EE00D9FADE /* ViewController.swift */,
+				38BFE26623C220EE00D9FADE /* Main.storyboard */,
+				38BFE26C23C220F200D9FADE /* Assets.xcassets */,
+				38BFE26E23C220F200D9FADE /* LaunchScreen.storyboard */,
+				38BFE27123C220F200D9FADE /* Info.plist */,
+				38BFE26923C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld */,
+			);
+			path = "TVMaze Viewer";
+			sourceTree = "<group>";
+		};
+		38BFE27923C220F300D9FADE /* TVMaze ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE27A23C220F300D9FADE /* TVMaze_ViewerTests.swift */,
+				38BFE27C23C220F300D9FADE /* Info.plist */,
+			);
+			path = "TVMaze ViewerTests";
+			sourceTree = "<group>";
+		};
+		38BFE28423C220F300D9FADE /* TVMaze ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38BFE28523C220F300D9FADE /* TVMaze_ViewerUITests.swift */,
+				38BFE28723C220F300D9FADE /* Info.plist */,
+			);
+			path = "TVMaze ViewerUITests";
+			sourceTree = "<group>";
+		};
+		800D1CF5DD13C1DA9BD742E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63057F9867EA8454CDF7A8B3 /* Pods_TVMaze_Viewer.framework */,
+				0CD452C1BF68278CFA861B57 /* Pods_TVMaze_ViewerTests.framework */,
+				86D77FF0022FDBD3BC84E24C /* Pods_TVMaze_ViewerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D96DBCB924330895AA2D9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9FBF1ADD7D93FF2A22B911E /* Pods-TVMaze Viewer.debug.xcconfig */,
+				01383317DE0344D80B6DC26A /* Pods-TVMaze Viewer.release.xcconfig */,
+				6A1B0D0F406968CBAD2265C4 /* Pods-TVMaze ViewerTests.debug.xcconfig */,
+				944BF14A3CCF529C5FD10B85 /* Pods-TVMaze ViewerTests.release.xcconfig */,
+				7DCE0E0627D8F67756A8A6D6 /* Pods-TVMaze ViewerUITests.debug.xcconfig */,
+				1D299CF58A413511E1B257F7 /* Pods-TVMaze ViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BFE25C23C220EE00D9FADE /* TVMaze Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE28A23C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze Viewer" */;
+			buildPhases = (
+				17021F1951A59857A838AFAA /* [CP] Check Pods Manifest.lock */,
+				38BFE25923C220EE00D9FADE /* Sources */,
+				38BFE25A23C220EE00D9FADE /* Frameworks */,
+				38BFE25B23C220EE00D9FADE /* Resources */,
+				AD8CE41303F530A343FA4E73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TVMaze Viewer";
+			productName = "TVMaze Viewer";
+			productReference = 38BFE25D23C220EE00D9FADE /* TVMaze Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38BFE27523C220F300D9FADE /* TVMaze ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE28D23C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze ViewerTests" */;
+			buildPhases = (
+				FED790DDC4157862459A2DD3 /* [CP] Check Pods Manifest.lock */,
+				38BFE27223C220F300D9FADE /* Sources */,
+				38BFE27323C220F300D9FADE /* Frameworks */,
+				38BFE27423C220F300D9FADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BFE27823C220F300D9FADE /* PBXTargetDependency */,
+			);
+			name = "TVMaze ViewerTests";
+			productName = "TVMaze ViewerTests";
+			productReference = 38BFE27623C220F300D9FADE /* TVMaze ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38BFE28023C220F300D9FADE /* TVMaze ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BFE29023C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze ViewerUITests" */;
+			buildPhases = (
+				4868CB19A6EE184CA715443C /* [CP] Check Pods Manifest.lock */,
+				38BFE27D23C220F300D9FADE /* Sources */,
+				38BFE27E23C220F300D9FADE /* Frameworks */,
+				38BFE27F23C220F300D9FADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BFE28323C220F300D9FADE /* PBXTargetDependency */,
+			);
+			name = "TVMaze ViewerUITests";
+			productName = "TVMaze ViewerUITests";
+			productReference = 38BFE28123C220F300D9FADE /* TVMaze ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BFE25523C220ED00D9FADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Kross;
+				TargetAttributes = {
+					38BFE25C23C220EE00D9FADE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					38BFE27523C220F300D9FADE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 38BFE25C23C220EE00D9FADE;
+					};
+					38BFE28023C220F300D9FADE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 38BFE25C23C220EE00D9FADE;
+					};
+				};
+			};
+			buildConfigurationList = 38BFE25823C220ED00D9FADE /* Build configuration list for PBXProject "TVMaze Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BFE25423C220ED00D9FADE;
+			productRefGroup = 38BFE25E23C220EE00D9FADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BFE25C23C220EE00D9FADE /* TVMaze Viewer */,
+				38BFE27523C220F300D9FADE /* TVMaze ViewerTests */,
+				38BFE28023C220F300D9FADE /* TVMaze ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BFE25B23C220EE00D9FADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE27023C220F200D9FADE /* LaunchScreen.storyboard in Resources */,
+				38BFE26D23C220F200D9FADE /* Assets.xcassets in Resources */,
+				38BFE26823C220EE00D9FADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27423C220F300D9FADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27F23C220F300D9FADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17021F1951A59857A838AFAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVMaze Viewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4868CB19A6EE184CA715443C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVMaze ViewerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD8CE41303F530A343FA4E73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TVMaze Viewer/Pods-TVMaze Viewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Siesta/Siesta.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siesta.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TVMaze Viewer/Pods-TVMaze Viewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED790DDC4157862459A2DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TVMaze ViewerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BFE25923C220EE00D9FADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE26523C220EE00D9FADE /* ViewController.swift in Sources */,
+				38BFE26123C220EE00D9FADE /* AppDelegate.swift in Sources */,
+				38BFE26B23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld in Sources */,
+				38BFE26323C220EE00D9FADE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27223C220F300D9FADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE27B23C220F300D9FADE /* TVMaze_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFE27D23C220F300D9FADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BFE28623C220F300D9FADE /* TVMaze_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38BFE27823C220F300D9FADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BFE25C23C220EE00D9FADE /* TVMaze Viewer */;
+			targetProxy = 38BFE27723C220F300D9FADE /* PBXContainerItemProxy */;
+		};
+		38BFE28323C220F300D9FADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38BFE25C23C220EE00D9FADE /* TVMaze Viewer */;
+			targetProxy = 38BFE28223C220F300D9FADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38BFE26623C220EE00D9FADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BFE26723C220EE00D9FADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BFE26E23C220F200D9FADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BFE26F23C220F200D9FADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BFE28823C220F300D9FADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38BFE28923C220F300D9FADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BFE28B23C220F300D9FADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FBF1ADD7D93FF2A22B911E /* Pods-TVMaze Viewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38BFE28C23C220F300D9FADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01383317DE0344D80B6DC26A /* Pods-TVMaze Viewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38BFE28E23C220F300D9FADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1B0D0F406968CBAD2265C4 /* Pods-TVMaze ViewerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze ViewerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze Viewer.app/TVMaze Viewer";
+			};
+			name = Debug;
+		};
+		38BFE28F23C220F300D9FADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944BF14A3CCF529C5FD10B85 /* Pods-TVMaze ViewerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze ViewerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVMaze Viewer.app/TVMaze Viewer";
+			};
+			name = Release;
+		};
+		38BFE29123C220F300D9FADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCE0E0627D8F67756A8A6D6 /* Pods-TVMaze ViewerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TVMaze Viewer";
+			};
+			name = Debug;
+		};
+		38BFE29223C220F300D9FADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D299CF58A413511E1B257F7 /* Pods-TVMaze ViewerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEUP74522J;
+				INFOPLIST_FILE = "TVMaze ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jobsity.TVMaze-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TVMaze Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BFE25823C220ED00D9FADE /* Build configuration list for PBXProject "TVMaze Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE28823C220F300D9FADE /* Debug */,
+				38BFE28923C220F300D9FADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE28A23C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE28B23C220F300D9FADE /* Debug */,
+				38BFE28C23C220F300D9FADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE28D23C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE28E23C220F300D9FADE /* Debug */,
+				38BFE28F23C220F300D9FADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BFE29023C220F300D9FADE /* Build configuration list for PBXNativeTarget "TVMaze ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BFE29123C220F300D9FADE /* Debug */,
+				38BFE29223C220F300D9FADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38BFE26923C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38BFE26A23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodel */,
+			);
+			currentVersion = 38BFE26A23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodel */;
+			path = TVMaze_Viewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38BFE25523C220ED00D9FADE /* Project object */;
+}

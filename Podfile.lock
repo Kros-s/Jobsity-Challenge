@@ -1,0 +1,18 @@
+PODS:
+  - Siesta (1.4.3):
+    - Siesta/Core (= 1.4.3)
+  - Siesta/Core (1.4.3)
+
+DEPENDENCIES:
+  - Siesta (~> 1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Siesta
+
+SPEC CHECKSUMS:
+  Siesta: 83795fdf6a43232d1d2909e1a3dfb92ab5916d26
+
+PODFILE CHECKSUM: 95187e4673cdd7d17726aea96a763907731e1aee
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module Pods_TVMaze_ViewerTests {
+  umbrella header "Pods-TVMaze ViewerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
