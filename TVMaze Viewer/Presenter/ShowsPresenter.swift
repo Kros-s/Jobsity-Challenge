@@ -16,7 +16,7 @@ final class ShowsPresenter {
     
     struct Dependencies {
         var service: BaseService = TVMazeService()
-        var mapper = ShowMapper()
+        var mapper = ShowsMapper()
         weak var view: ViewShowsDelegate?
         init(view: ViewShowsDelegate) {
             self.view = view

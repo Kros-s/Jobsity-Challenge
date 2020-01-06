@@ -9,7 +9,12 @@
 import UIKit
 import Siesta
 
+protocol PreviewShow {
+    func perform()
+}
+
 final class ShowsTableViewCell: UITableViewCell {
+    var delegate: PreviewShow?
     @IBOutlet weak var view: UIView!
     
     @IBOutlet weak var leftIcon: RemoteImageView!
@@ -30,6 +35,9 @@ final class ShowsTableViewCell: UITableViewCell {
         super.init(coder: aDecoder)
     }
     
+    @IBAction func continueToPreview(_ sender: Any) {
+        delegate?.perform()
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }

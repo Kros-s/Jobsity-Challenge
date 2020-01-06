@@ -13,4 +13,6 @@ struct TVShow {
     let status: String
     let schedule: Schedule
     let summary: String
+    let genres: [String]
+    var episodes: [Episode] = []
 }

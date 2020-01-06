@@ -8,11 +8,17 @@
 
 import Foundation
 
-final class ShowMapper {
+final class ShowsMapper {
     func map(shows: [ShowElement]) -> [TVShow] {
         return shows.compactMap {
             let image: String? = "https" + (String($0.show.image?.original.dropFirst(4) ?? ""))
-            return TVShow(showName: $0.show.name, poster: image, status: $0.show.status, schedule: $0.show.schedule, summary: $0.show.summary)
+            return TVShow(showName: $0.show.name, poster: image, status: $0.show.status, schedule: $0.show.schedule, summary: $0.show.summary, genres: $0.show.genres)
         }
+    }
+}
+
+final class ShowMapper {
+    func fulfill(tvshow: inout TVShow, show: Show) {
+        tvshow.episodes = show.embedded.episodes
     }
 }

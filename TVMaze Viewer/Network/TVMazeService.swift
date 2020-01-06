@@ -10,6 +10,7 @@ import Siesta
 
 protocol BaseService {
     func getShows(_ search: String) -> Resource
+    func getShowEpisodes(showId: String) -> Resource
 }
 
 final class TVMazeService: BaseService {
@@ -37,7 +38,7 @@ final class TVMazeService: BaseService {
         dependencies.service.configureTransformer("/search/shows") {
             // Input type inferred because the from: param takes Data.
             // Output type inferred because jsonDecoder.decode() will return RedditObject
-            try self.dependencies.decoder.decode(Show.self, from: $0.content)
+            try self.dependencies.decoder.decode(Shows.self, from: $0.content)
             
         }
         
@@ -47,6 +48,11 @@ final class TVMazeService: BaseService {
 //            // Output type inferred because jsonDecoder.decode() will return RedditObject
 //            try self.dependencies.decoder.decode(ShowElement.self, from: $0.content)
 //        }
+    }
+    
+    func getShowEpisodes(showId: String) -> Resource {
+        let path = "/shows/" + showId
+        return dependencies.service.resource(path).withParam("embed", "episodes")
     }
     
     func getShows(_ search: String) -> Resource {

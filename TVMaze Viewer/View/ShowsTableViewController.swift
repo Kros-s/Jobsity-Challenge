@@ -30,12 +30,10 @@ final class ShowsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        
+        // Need to remove this
         presenter.searchMovies("Doctor")
         
-    }
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -44,7 +42,7 @@ final class ShowsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellTVShow", for: indexPath) as! ShowsTableViewCell
-
+        cell.delegate = self
         let show = shows[indexPath.row] as TVShow
         cell.title.text = show.showName
         cell.subReddit.text = show.summary.withoutHtmlTags
@@ -60,35 +58,44 @@ final class ShowsTableViewController: UITableViewController {
         cell.leftIcon.clipsToBounds = true
         return cell
     }
-//
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        selectedRow = indexPath.row
-//        self.performSegue(withIdentifier: "s_preview", sender: nil)
-//    }
-//
-//    /// Getting ready for the next view, here we sent the data to the next view
-//    ///
-//    /// - Parameters:
-//    ///   - segue: segue being called
-//    ///   - sender:
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//
-//        if segue.identifier == "s_preview" {
-//            let destinationVC = segue.destination as! PreviewViewController
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedRow = indexPath.row
+        self.performSegue(withIdentifier: Segues.showPreview, sender: nil)
+    }
+
+    /// Getting ready for the next view, here we sent the data to the next view
+    ///
+    /// - Parameters:
+    ///   - segue: segue being called
+    ///   - sender:
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == Segues.showPreview {
+            let destinationVC = segue.destination as! ShowViewController
+            destinationVC.show = shows[selectedRow]
 //            destinationVC.view.backgroundColor = UIColor.clear
 //            destinationVC.preview.imageURL = posts[selectedRow].thumbnail
 //            destinationVC.posTtitle.text = posts[selectedRow].title
 //            destinationVC.stringUrl = posts[selectedRow].url
 //            destinationVC.renderPage()
-//        }
-//    }
+        }
+    }
     
 }
 
 extension ShowsTableViewController: ViewShowsDelegate {
     func update(shows: [TVShow]) {
+        // There's no way to get selected Row
         self.shows = shows
     }
+}
+extension ShowsTableViewController: PreviewShow {
+    func perform() {
+        self.performSegue(withIdentifier: Segues.showPreview, sender: nil)
+    }
+    
+    
 }
 
 
@@ -122,7 +129,7 @@ extension ShowsTableViewController {
 
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         expandableArea.addSubview(searchBar)
-        searchBar.placeholder = "Place the search here"
+        searchBar.placeholder = "Search show here"
         searchBar.delegate = self
 
         //LeftConstraint
