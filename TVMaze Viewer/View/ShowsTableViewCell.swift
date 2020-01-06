@@ -15,6 +15,8 @@ final class ShowsTableViewCell: UITableViewCell {
     @IBOutlet weak var leftIcon: RemoteImageView!
     @IBOutlet weak var title: UILabel!
     
+    @IBOutlet weak var continueButton: UIButton!
+    @IBOutlet weak var statusDetail: UILabel!
     @IBOutlet weak var subReddit: UILabel!
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -42,10 +44,11 @@ final class ShowsTableViewCell: UITableViewCell {
     ///
     /// - Parameter isActive: flag to know if it's selected or even highlighted
     func configureStatus(isActive: Bool) {
-        if isActive {
-            view.layer.backgroundColor = UIColor.gray.cgColor
+        if !isActive {
+            continueButton.tintColor = UIColor.white
+            
         } else {
-            view.layer.backgroundColor = UIColor.white.cgColor
+            continueButton.tintColor = UIColor.black
         }
     }
     

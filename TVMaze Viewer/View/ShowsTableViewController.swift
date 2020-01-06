@@ -43,20 +43,20 @@ final class ShowsTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellTVShow", for: indexPath) as! ShowsTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CellTVShow", for: indexPath) as! ShowsTableViewCell
 
         let show = shows[indexPath.row] as TVShow
         cell.title.text = show.showName
-        cell.subReddit.text = show.summary
-
+        cell.subReddit.text = show.summary.withoutHtmlTags
+        cell.statusDetail.text = "Status: " + show.status
         cell.leftIcon.imageURL = show.poster
 
         // FIXME: Move this to the init on the Cell
         //Setup for the view
-        cell.leftIcon.layer.borderWidth = 1.0
+        //cell.leftIcon.layer.borderWidth = 1.0
         cell.leftIcon.layer.masksToBounds = false
-        cell.leftIcon.layer.borderColor = UIColor.white.cgColor
-        cell.leftIcon.layer.cornerRadius = 40
+        
+        cell.leftIcon.layer.cornerRadius = 8
         cell.leftIcon.clipsToBounds = true
         return cell
     }
@@ -114,7 +114,11 @@ extension ShowsTableViewController {
 
         navigationItem.titleView = expandableArea
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(toggle))
-        navigationItem.rightBarButtonItem?.tintColor = UIColor.black
+        navigationItem.rightBarButtonItem?.tintColor = UIColor.white
+        
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.isTranslucent = true
+
 
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         expandableArea.addSubview(searchBar)

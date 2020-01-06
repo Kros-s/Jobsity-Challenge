@@ -19,10 +19,10 @@ struct ShowClass: Codable {
     let id: Int
     let url: String
     let name: String
-    let type: TypeEnum
+    let type: String?
     let language: String
     let genres: [String]
-    let status: Status
+    let status: String
     let runtime: Int?
     let premiered: String?
     let officialSite: String?
@@ -90,17 +90,6 @@ struct Rating: Codable {
 struct Schedule: Codable {
     let time: String
     let days: [String]
-}
-
-enum Status: String, Codable {
-    case ended = "Ended"
-    case inDevelopment = "In Development"
-    case running = "Running"
-}
-
-enum TypeEnum: String, Codable {
-    case animation = "Animation"
-    case scripted = "Scripted"
 }
 
 typealias Show = [ShowElement]

@@ -10,7 +10,7 @@ import Foundation
 struct TVShow {
     let showName: String
     let poster: String?
-    let status: Status
+    let status: String
     let schedule: Schedule
     let summary: String
 }

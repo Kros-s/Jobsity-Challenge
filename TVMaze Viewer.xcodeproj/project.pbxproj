@@ -17,6 +17,7 @@
 		387D473323C2D9D200A6876F /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D473223C2D9D200A6876F /* ExpandableView.swift */; };
 		387D473523C2DB8C00A6876F /* ShowsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D473423C2DB8C00A6876F /* ShowsTableViewCell.swift */; };
 		387D473723C2DEDF00A6876F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D473623C2DEDF00A6876F /* CardView.swift */; };
+		387D473A23C358AC00A6876F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387D473923C358AC00A6876F /* Extensions.swift */; };
 		38BFE26123C220EE00D9FADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26023C220EE00D9FADE /* AppDelegate.swift */; };
 		38BFE26323C220EE00D9FADE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26223C220EE00D9FADE /* SceneDelegate.swift */; };
 		38BFE26523C220EE00D9FADE /* ShowsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE26423C220EE00D9FADE /* ShowsTableViewController.swift */; };
@@ -58,6 +59,7 @@
 		387D473223C2D9D200A6876F /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
 		387D473423C2DB8C00A6876F /* ShowsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowsTableViewCell.swift; sourceTree = "<group>"; };
 		387D473623C2DEDF00A6876F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		387D473923C358AC00A6876F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38BFE25D23C220EE00D9FADE /* TVMaze Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVMaze Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BFE26023C220EE00D9FADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38BFE26223C220EE00D9FADE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,6 +171,14 @@
 			path = UseCase;
 			sourceTree = "<group>";
 		};
+		387D473823C3589300A6876F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				387D473923C358AC00A6876F /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		38BFE25423C220ED00D9FADE = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 		38BFE25F23C220EE00D9FADE /* TVMaze Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				387D473823C3589300A6876F /* Utils */,
 				387D472F23C2CE0400A6876F /* UseCase */,
 				387D472423C22C5300A6876F /* Network */,
 				387D472323C22C4900A6876F /* Model */,
@@ -485,6 +496,7 @@
 				38BFE26523C220EE00D9FADE /* ShowsTableViewController.swift in Sources */,
 				38BFE26123C220EE00D9FADE /* AppDelegate.swift in Sources */,
 				38BFE26B23C220EE00D9FADE /* TVMaze_Viewer.xcdatamodeld in Sources */,
+				387D473A23C358AC00A6876F /* Extensions.swift in Sources */,
 				387D473123C2CE1600A6876F /* ShowMapper.swift in Sources */,
 				387D472623C22C9600A6876F /* TVMazeService.swift in Sources */,
 				387D473723C2DEDF00A6876F /* CardView.swift in Sources */,
