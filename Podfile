@@ -7,7 +7,7 @@ target 'TVMaze Viewer' do
 
   # Pods for TVMaze Viewer
     pod 'Siesta', '~> 1.0'
-
+    pod 'Siesta/UI', '~> 1.0'
   target 'TVMaze ViewerTests' do
     inherit! :search_paths
     # Pods for testing

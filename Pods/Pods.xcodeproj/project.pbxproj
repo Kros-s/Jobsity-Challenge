@@ -7,57 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02D9399C3906C2D1FB1980FE6D617E5B /* Siesta.h in Headers */ = {isa = PBXBuildFile; fileRef = 5800FC35E8F3D5E8743C615D001FC96C /* Siesta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1745783EB98C897C5BFAAE230D734CEB /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3846A0D998A1730BBD156B5B541896 /* Networking.swift */; };
-		1C0643118E9D86849707E21C2F68EBA8 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0870404924FB22B6CBCD5EEB116B6037 /* ProgressTracker.swift */; };
-		1DFCDE0E501FE76CDC424676CC006FDE /* Siesta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE97B1E74B9D54CD7E2A0E47ED0D0ED6 /* Siesta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EE26124176C2C346203DB4B5B6B8F7F /* Regex+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1F3B76B3D3447C8E64EC891B0FA41B /* Regex+Siesta.swift */; };
-		201C731C5A26C0D579ECB6AF8EA1DA01 /* Collection+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE00FE96ABF3AB26DB096B86578C70D /* Collection+Siesta.swift */; };
-		2B09CB901F249ACA1595DFD38389C0CC /* String+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3F7FB8AD82BA2DE1413C1B34BA12F /* String+Siesta.swift */; };
-		3C61FCE4BC9F7C651391608900162B4A /* ARC+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9E2442568D6936EBEFC1891D4A617B /* ARC+Siesta.swift */; };
-		3F5A9080E6EC865AB61A399724866121 /* SiestaUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A891DA2457392DB3D1EB09A80612E12D /* SiestaUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		421EE3355755EAA3CBF503EA36ABB2DB /* URL+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83143CE90582B1EE36804A1A38C22886 /* URL+Siesta.swift */; };
-		468A308A181C85350269CE1DD71261D3 /* ResourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC158C8885037818226B9B9DCC730733 /* ResourceNavigation.swift */; };
-		47627A4529146E5ECF92D23969281E3F /* DebugFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E9D09EBE50CC76533CE8E893565EC3 /* DebugFormatting.swift */; };
-		47F77757A2E3D140308C892149FDADEF /* ResourceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B91B79E3CB2706B1AA5D2CF86CF01D /* ResourceObserver.swift */; };
-		5417724E7F285BBC8FB77042F392FC38 /* Optional+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5985CBCB8FE0F28DEA99E46452CD073 /* Optional+Siesta.swift */; };
-		63E6B05220C523DC0E2544BF1910EE91 /* GCD+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FAF8D30A73DAEE344365BAC0FA3428 /* GCD+Siesta.swift */; };
-		661AE9707CEB89E0E6A00A2C9FBB97A1 /* Siesta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12363CB2EF3D676B828B5A8BF79B4220 /* Siesta-dummy.m */; };
+		02D9399C3906C2D1FB1980FE6D617E5B /* Siesta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE77D12084999BA909D5ADB552CE061 /* Siesta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06CDB35FC780C980FE9659BC6F7EBF3F /* GCD+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB15F89354064AF1F0F9FA9D5CE03BD /* GCD+Siesta.swift */; };
+		094D63D441E96A04297B008A9F118FDE /* PipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04645D6CEEC3370CA01EF410C636599F /* PipelineConfiguration.swift */; };
+		0B3450E492CC4D38EC2022F3BD89A84C /* ARC+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7EEC71C3CBA39BF7C93769612114E /* ARC+Siesta.swift */; };
+		0C687B06EBB0EE372665BA790FE4FC40 /* Networking-URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857586A68BBCB54923F819040BAF4E22 /* Networking-URLSession.swift */; };
+		106BC45C076D71BDA8DEBD1C7978D4D4 /* StandardTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889D8113E02215EB1618F186A8D7E85 /* StandardTransformers.swift */; };
+		116A02F5F4F70421416331E0D438E66A /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679431BE292DEE688944AA724495175A /* Networking.swift */; };
+		1A7E47923CA0936F46F0A15E26F1CCC9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DADF4CEB12D9F37BE9BD8AACC507ECB /* Resource.swift */; };
+		1B9298BA7AAA2420CE2B765DE0E801AE /* PipelineProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFE4C89B79150BB88645F34F655840 /* PipelineProcessing.swift */; };
+		1D68FA8993359A2ECB4D58D69FA27BED /* LiveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DC715215599A50D9DED7A3FD63CF1B /* LiveRequest.swift */; };
+		1DFCDE0E501FE76CDC424676CC006FDE /* Siesta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F01AD7916DD803593C104E920A7FE7 /* Siesta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2425CC8A8FB3FAE3E54FDD5822D4270B /* DebugFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372FD6500826E7C2FE54B4AC69291B2 /* DebugFormatting.swift */; };
+		284582ED7D00EEA32A602B81919CBA14 /* RequestCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28D2F3951C8B721994A52AA447D32F /* RequestCallbacks.swift */; };
+		2BB23D7017E13CF8CBE67B0391016133 /* Siesta-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D90B50D303B92B461D5800C3BA77EB /* Siesta-ObjC.swift */; };
+		3F5A9080E6EC865AB61A399724866121 /* SiestaUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD3E671A686E6056B89D660CACED45B /* SiestaUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44B3970B7A8B0FE75D31E96E98395E04 /* Siesta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC61EB0A352EE24C764B0D76A5ADBA2E /* Siesta-dummy.m */; };
+		466D7198E117C16FFBCA2CF8AB6AFEB6 /* RequestCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9648074342A60E559ED5307481CB9EB /* RequestCreation.swift */; };
+		4A55E1B01844898A6026D16526C37FA1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027F153EA7909FE918F070B79ED62FB /* Service.swift */; };
+		4D77935A1763DFAA63D8182B306F9510 /* SiestaUI-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09145A5FE602C93F6835385608F465D2 /* SiestaUI-ObjC.swift */; };
+		4EB8E4D58A12A82752B7C4005BFD2A94 /* ResourceObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077EA20666CD7979A916F4A769636BB1 /* ResourceObserver.swift */; };
+		50DF32C511292743BC7FADB9307A8F65 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323C09ECD2858A9261BBAF142D80ED2 /* RemoteImageView.swift */; };
+		56B1FFF9C2FA41554FD5F28F77C1D988 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2580D4C6A20940D4D5E4B8EAA5DB9398 /* RequestError.swift */; };
+		5C8EC0BDCCCB5B5D71988BD28B946613 /* ConfigurationPatternConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313A18FFD024F827BA89A5C5FD7EB5D /* ConfigurationPatternConvertible.swift */; };
 		6831E83BCB197FEE2381CFC1578A71A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6A3CF689C8B7192001564D2765C41225 /* Pods-TVMaze Viewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F7A0F602CF0F772061095533414CF3 /* Pods-TVMaze Viewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BA63161432B14C53BD25EAE57EEFCA9 /* Optional+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD871557BE44FEA565467793E31D65 /* Optional+Siesta.swift */; };
 		6BB725AF59B583BFF605BD09768BA26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		70A20751DC66F23CC5B03169AA48F544 /* Networking-URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33792360498E2472E11236FF3D9CC0DF /* Networking-URLSession.swift */; };
-		72F35E3EB444CDBB911C9E673A60D131 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C212E1F023669E187B7696DC39B4C3 /* NetworkRequest.swift */; };
-		7CC62159EC068D5877280D3AAE786C1A /* EntityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF66A64CE203EE662B074C28E551B53 /* EntityCache.swift */; };
-		7D683FF2C008BB2E2063B3545E302EB9 /* PipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850B99B4AC073F68695028AEE313E67 /* PipelineConfiguration.swift */; };
-		8B73C2E96F17889B38C2580A7FF98CE9 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD3E192733DCB159E41B442F0984463 /* Logging.swift */; };
-		8F071221C3163AE1DB120AE96DA98BB1 /* Ω_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE952703FD75855BFECEBE685B1970AB /* Ω_Deprecations.swift */; };
-		8F09DF2BE7B1C52B741BEA6D4262BA16 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941B0D1715472CA9E737D80AD793710 /* Entity.swift */; };
+		6E26B0DEB77517543AB5E6AD94945357 /* ResourceNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76529B85D2CBB6098C5AEBB61D086CC /* ResourceNavigation.swift */; };
+		7087A96D58769788C7303C74CC4323F4 /* Collection+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BFE9C4ED6F3AF85119D6FD272BF140 /* Collection+Siesta.swift */; };
+		76AB812F80D012D5070F1C890B883A04 /* ResponseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D4C73D23E40DF2A92E043B1B3B375C /* ResponseTransformer.swift */; };
+		817389693E2FC0E245F3F5C8BC211377 /* URL+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1FC233B3CA8B3AB74FFC286151713 /* URL+Siesta.swift */; };
+		830D80EBE4674513579686A528E8AC8B /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0334061FB9A3D8423BFCC4E07F6CE183 /* Logging.swift */; };
+		8CF4FD24226BFDC209E570686F45C9BF /* Regex+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF272CFA8D7D3D4B366BC4CF84F5DF00 /* Regex+Siesta.swift */; };
 		8F22533ADB5A91649D13238DA066C222 /* Pods-TVMaze ViewerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716B14CC1DF3E17A72D104CE1DE35D99 /* Pods-TVMaze ViewerTests-dummy.m */; };
-		8F4FB64CDEA2EF6074E4424E7A866AB0 /* WeakCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4533449415C71B4CAE7BD4818636C6 /* WeakCache.swift */; };
 		937AED9F8F44CF1276CAE56C9B0BFD38 /* Pods-TVMaze ViewerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 660870DAB6782D68426B18AEB09159BF /* Pods-TVMaze ViewerUITests-dummy.m */; };
-		97469E593FA739A9022C66771A3491C5 /* Siesta-ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD8B817D6D5E064194DA05EF6154E9 /* Siesta-ObjC.swift */; };
-		98257F70E7BE853FF1352A927D7CA7B2 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1A9CBF131D80F39E5D624E79485CE1 /* Resource.swift */; };
-		B93D143040C8AAD70F3D957C1F941E29 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C3356D25911F689EA45D01F5F49A14 /* Service.swift */; };
-		C1C684290E384A78563E7EF6A7B9CE40 /* LiveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252C6AC1DD3CA8F60DD1B967523B504 /* LiveRequest.swift */; };
-		C1F1534EF477E5B273F52FDD9CA81500 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF2E68A8D62ED1C2D342163728491F9 /* Request.swift */; };
-		C378A192D3D35F2B5661F85D61421302 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DAA301AFCA315D1D57A799063524E /* Configuration.swift */; };
+		973004419D42C6106A30B66DAE4F4A1A /* Ω_UI_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A0EE31C0FEAAD546694A19FA4E667E /* Ω_UI_Deprecations.swift */; };
+		9C4713090063835090AF013EE9DF4937 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81CE8C820AF75C7B17B1CA0A1D9E7E7 /* Configuration.swift */; };
+		9F71339E88799D50D299C8763F7F7A4D /* Ω_Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B337F338356921C3214FAABCD1B58C /* Ω_Deprecations.swift */; };
+		A29C2493A5D97C72322B61DD86283C8E /* EntityCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25460B488A99E7AF1F45256011A02B21 /* EntityCache.swift */; };
+		A3D69836B0D5DE849DF450848E5149E0 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE383400C2DDFFA82E39D730950DD4 /* Progress.swift */; };
+		A5C1BD7BF43E5C50B711B3C67D148097 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755D14E65F0FCB9E3B0CA36D4AC5202B /* NetworkRequest.swift */; };
+		B50A103D0DE9F73FD76BD467DD2755C2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CB3C83B1E00E0C1AD9F06185131C3A /* Request.swift */; };
+		B58DCCFE9D63DE671089A549A8EAE2EB /* RequestChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = D361FAD4653E5B92EFDF79870BD9DE90 /* RequestChaining.swift */; };
+		B62DBA4E842CFDFE24DBD398A38BD8AF /* NetworkActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07464557F70A9B31409B8FE76218B49C /* NetworkActivityIndicator.swift */; };
+		C3FFF62561F5F271863DF84F16E3B887 /* String+Siesta.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA984CFA9E635F66D00A66FD71B96E /* String+Siesta.swift */; };
 		D33E64162A23F1A5BB800E87F92D40FA /* Pods-TVMaze ViewerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B71438AFA3C232C5F54FF466212CD4A /* Pods-TVMaze ViewerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4C903EFFE3AFAC6953081FA033D8199 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F40D498B97FE3DB5B22084E94986080 /* RequestError.swift */; };
-		D60113514DEBB0A51C7E1D54E2D483A7 /* RequestCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F354E4B34F0E3C20D01CEBE46119FFB /* RequestCreation.swift */; };
+		D46A227577515B7402DC78A8BE575E27 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918A5C3473D999FF537457686F8E63AA /* Entity.swift */; };
 		D7D5075182D83983D551BD58A6E5D889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		D980401D65207E429A0AB310C9BFD849 /* HardWiredRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB11EE7910AA0CD612DC2BEDC951354 /* HardWiredRequest.swift */; };
-		DE3A6B0657F6E5DE15B691A3555F898F /* RequestCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A5F579AC86A4CACD5F0246049FDA5 /* RequestCallbacks.swift */; };
+		DC1D800D5B3CCE03959814BAA7F5978F /* HardWiredRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798D106671CD3BD185A820ABE2C1F74D /* HardWiredRequest.swift */; };
 		E24A0B76EBCD62CD713813D01386BA1F /* Pods-TVMaze ViewerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96532EC7786CA1C48EE6124C6CD45083 /* Pods-TVMaze ViewerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2893C20E7E9DA876A0EC512BA4DA15A /* Pods-TVMaze Viewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5D779E5BD4BF43F2C644AD5E74926 /* Pods-TVMaze Viewer-dummy.m */; };
-		E48D566A63D6D3AD4C73B1AB0E13EB09 /* OpenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB017B57CE440FB672A199D69CAD40B5 /* OpenEnum.swift */; };
+		E8E9C86054CED0453C9C6474575467FD /* OpenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646731B4630A1DB217E294741CC1F1B /* OpenEnum.swift */; };
 		EAB4496259908C8F12812FC3C2E2315F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F0814F89592E8B863B06750DB0A45D0B /* PipelineProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989DF4D46707CB43E169AAAAABDD2F18 /* PipelineProcessing.swift */; };
-		F616C0B7D7AA0800D88AEF23BFCB03D2 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD03D75D58F930BE942A6237D2742198 /* Progress.swift */; };
-		F8484408A0A6025E4A02CC98BA890639 /* ConfigurationPatternConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F109ED499A399442237D561FAACFB /* ConfigurationPatternConvertible.swift */; };
-		FA8C97C3377BF05E502C4E7E25794A6A /* ResponseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41FC1D21DB4DE16996AE17360D75F3A /* ResponseTransformer.swift */; };
-		FB4CADF84FB4E16003DE3D933D48AB52 /* RequestChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323277446120D3CB940DDA2B6E23C1C /* RequestChaining.swift */; };
-		FF2E73C27347677D6600346180E2B8D5 /* StandardTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDBE51EA2AF74AE03E3785E4D598FB /* StandardTransformers.swift */; };
+		EC6B300C8D89B63177C1D9E9149D6D66 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E349C619B870EF4F622FF5D6B1706 /* ProgressTracker.swift */; };
+		EEA671A4C677A5378DBFA90F5391D7F8 /* ResourceStatusOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492C34A11BF6BBCE05BA6A0E39245AD /* ResourceStatusOverlay.swift */; };
+		F2610157E95DB45ADB9A1AD3F0B76BD4 /* WeakCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1D275C74BD38D79A570DAEF81D3D8 /* WeakCache.swift */; };
+		F357A85B4CC0C6BA403C2FA325C4B638 /* ResourceStatusOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E2F0E84C0014DE382C16BB58358189 /* ResourceStatusOverlay.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,82 +91,88 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BDBE51EA2AF74AE03E3785E4D598FB /* StandardTransformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardTransformers.swift; path = Source/Siesta/Pipeline/StandardTransformers.swift; sourceTree = "<group>"; };
-		0323277446120D3CB940DDA2B6E23C1C /* RequestChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestChaining.swift; path = Source/Siesta/Request/RequestChaining.swift; sourceTree = "<group>"; };
-		0870404924FB22B6CBCD5EEB116B6037 /* ProgressTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressTracker.swift; path = Source/Siesta/Request/ProgressTracker.swift; sourceTree = "<group>"; };
-		0F40D498B97FE3DB5B22084E94986080 /* RequestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = Source/Siesta/RequestError.swift; sourceTree = "<group>"; };
-		0F6F109ED499A399442237D561FAACFB /* ConfigurationPatternConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationPatternConvertible.swift; path = Source/Siesta/ConfigurationPatternConvertible.swift; sourceTree = "<group>"; };
-		12363CB2EF3D676B828B5A8BF79B4220 /* Siesta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Siesta-dummy.m"; sourceTree = "<group>"; };
-		19B91B79E3CB2706B1AA5D2CF86CF01D /* ResourceObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceObserver.swift; path = Source/Siesta/Resource/ResourceObserver.swift; sourceTree = "<group>"; };
-		1D190EB70FDF272D1BF9856FBDDE2BD9 /* Siesta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Siesta.modulemap; sourceTree = "<group>"; };
-		20C212E1F023669E187B7696DC39B4C3 /* NetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRequest.swift; path = Source/Siesta/Request/NetworkRequest.swift; sourceTree = "<group>"; };
+		0334061FB9A3D8423BFCC4E07F6CE183 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Source/Siesta/Support/Logging.swift; sourceTree = "<group>"; };
+		04645D6CEEC3370CA01EF410C636599F /* PipelineConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineConfiguration.swift; path = Source/Siesta/Pipeline/PipelineConfiguration.swift; sourceTree = "<group>"; };
+		07464557F70A9B31409B8FE76218B49C /* NetworkActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityIndicator.swift; path = Source/SiestaUI/NetworkActivityIndicator.swift; sourceTree = "<group>"; };
+		077EA20666CD7979A916F4A769636BB1 /* ResourceObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceObserver.swift; path = Source/Siesta/Resource/ResourceObserver.swift; sourceTree = "<group>"; };
+		0889D8113E02215EB1618F186A8D7E85 /* StandardTransformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardTransformers.swift; path = Source/Siesta/Pipeline/StandardTransformers.swift; sourceTree = "<group>"; };
+		09145A5FE602C93F6835385608F465D2 /* SiestaUI-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SiestaUI-ObjC.swift"; path = "Source/SiestaUI/SiestaUI-ObjC.swift"; sourceTree = "<group>"; };
+		0DADF4CEB12D9F37BE9BD8AACC507ECB /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Source/Siesta/Resource/Resource.swift; sourceTree = "<group>"; };
+		1492C34A11BF6BBCE05BA6A0E39245AD /* ResourceStatusOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceStatusOverlay.swift; path = Source/SiestaUI/ResourceStatusOverlay.swift; sourceTree = "<group>"; };
+		1FFD871557BE44FEA565467793E31D65 /* Optional+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Siesta.swift"; path = "Source/Siesta/Support/Optional+Siesta.swift"; sourceTree = "<group>"; };
+		2027F153EA7909FE918F070B79ED62FB /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Source/Siesta/Service.swift; sourceTree = "<group>"; };
+		25460B488A99E7AF1F45256011A02B21 /* EntityCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntityCache.swift; path = Source/Siesta/EntityCache.swift; sourceTree = "<group>"; };
+		2580D4C6A20940D4D5E4B8EAA5DB9398 /* RequestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = Source/Siesta/RequestError.swift; sourceTree = "<group>"; };
+		25DC715215599A50D9DED7A3FD63CF1B /* LiveRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiveRequest.swift; path = Source/Siesta/Request/LiveRequest.swift; sourceTree = "<group>"; };
 		2F1161F448BA0A0C683C5D56A0CA5D28 /* Pods-TVMaze ViewerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVMaze ViewerUITests.modulemap"; sourceTree = "<group>"; };
-		33792360498E2472E11236FF3D9CC0DF /* Networking-URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking-URLSession.swift"; path = "Source/Siesta/Networking-URLSession.swift"; sourceTree = "<group>"; };
-		38FAF8D30A73DAEE344365BAC0FA3428 /* GCD+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GCD+Siesta.swift"; path = "Source/Siesta/Support/GCD+Siesta.swift"; sourceTree = "<group>"; };
-		3F354E4B34F0E3C20D01CEBE46119FFB /* RequestCreation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCreation.swift; path = Source/Siesta/Request/RequestCreation.swift; sourceTree = "<group>"; };
+		38B337F338356921C3214FAABCD1B58C /* Ω_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_Deprecations.swift"; path = "Source/Siesta/Support/Ω_Deprecations.swift"; sourceTree = "<group>"; };
 		3FDBB8996CEEDC5209AD000D77B422E8 /* Pods-TVMaze ViewerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVMaze ViewerTests.modulemap"; sourceTree = "<group>"; };
 		4520062AA150187DFC65029B13E729C2 /* Pods-TVMaze ViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVMaze ViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45AD8B817D6D5E064194DA05EF6154E9 /* Siesta-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Siesta-ObjC.swift"; path = "Source/Siesta/Support/Siesta-ObjC.swift"; sourceTree = "<group>"; };
 		4633E93EC45C39600E00A793D452AA15 /* Pods-TVMaze Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze Viewer.debug.xcconfig"; sourceTree = "<group>"; };
-		4D4533449415C71B4CAE7BD4818636C6 /* WeakCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakCache.swift; path = Source/Siesta/Support/WeakCache.swift; sourceTree = "<group>"; };
+		4646731B4630A1DB217E294741CC1F1B /* OpenEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenEnum.swift; path = Source/Siesta/Support/OpenEnum.swift; sourceTree = "<group>"; };
+		49BFE4C89B79150BB88645F34F655840 /* PipelineProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineProcessing.swift; path = Source/Siesta/Pipeline/PipelineProcessing.swift; sourceTree = "<group>"; };
+		4AE77D12084999BA909D5ADB552CE061 /* Siesta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Siesta.h; path = Source/Siesta/Support/Siesta.h; sourceTree = "<group>"; };
 		54EBD57300CAA7C47320304253FD80AE /* Pods-TVMaze Viewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze Viewer-acknowledgements.plist"; sourceTree = "<group>"; };
 		577F3597E43CA73ED1A422E5EB29A8CD /* Pods-TVMaze ViewerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze ViewerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5800FC35E8F3D5E8743C615D001FC96C /* Siesta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Siesta.h; path = Source/Siesta/Support/Siesta.h; sourceTree = "<group>"; };
-		5AE00FE96ABF3AB26DB096B86578C70D /* Collection+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Siesta.swift"; path = "Source/Siesta/Support/Collection+Siesta.swift"; sourceTree = "<group>"; };
-		5DB11EE7910AA0CD612DC2BEDC951354 /* HardWiredRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HardWiredRequest.swift; path = Source/Siesta/Request/HardWiredRequest.swift; sourceTree = "<group>"; };
-		5FF66A64CE203EE662B074C28E551B53 /* EntityCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EntityCache.swift; path = Source/Siesta/EntityCache.swift; sourceTree = "<group>"; };
+		57D90B50D303B92B461D5800C3BA77EB /* Siesta-ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Siesta-ObjC.swift"; path = "Source/Siesta/Support/Siesta-ObjC.swift"; sourceTree = "<group>"; };
+		5FBE383400C2DDFFA82E39D730950DD4 /* Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = Source/Siesta/Support/Progress.swift; sourceTree = "<group>"; };
+		60F01AD7916DD803593C104E920A7FE7 /* Siesta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-umbrella.h"; sourceTree = "<group>"; };
 		660870DAB6782D68426B18AEB09159BF /* Pods-TVMaze ViewerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVMaze ViewerUITests-dummy.m"; sourceTree = "<group>"; };
 		673E3C5D0D6C76F5211EFAEC0583CB59 /* Pods-TVMaze Viewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TVMaze Viewer.modulemap"; sourceTree = "<group>"; };
+		679431BE292DEE688944AA724495175A /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Source/Siesta/Networking.swift; sourceTree = "<group>"; };
+		69A0EE31C0FEAAD546694A19FA4E667E /* Ω_UI_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_UI_Deprecations.swift"; path = "Source/SiestaUI/Ω_UI_Deprecations.swift"; sourceTree = "<group>"; };
+		6CEB2B73A5E68789164700D9550E5948 /* Siesta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siesta.xcconfig; sourceTree = "<group>"; };
+		70A7EEC71C3CBA39BF7C93769612114E /* ARC+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ARC+Siesta.swift"; path = "Source/Siesta/Support/ARC+Siesta.swift"; sourceTree = "<group>"; };
 		716B14CC1DF3E17A72D104CE1DE35D99 /* Pods-TVMaze ViewerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVMaze ViewerTests-dummy.m"; sourceTree = "<group>"; };
+		7313A18FFD024F827BA89A5C5FD7EB5D /* ConfigurationPatternConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationPatternConvertible.swift; path = Source/Siesta/ConfigurationPatternConvertible.swift; sourceTree = "<group>"; };
 		7346F409B6C93492185A396AEE0C22DC /* Pods-TVMaze ViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze ViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		755D14E65F0FCB9E3B0CA36D4AC5202B /* NetworkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRequest.swift; path = Source/Siesta/Request/NetworkRequest.swift; sourceTree = "<group>"; };
+		76D5D30214E5ECD57F44F339F87C259F /* Siesta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Siesta.modulemap; sourceTree = "<group>"; };
+		798D106671CD3BD185A820ABE2C1F74D /* HardWiredRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HardWiredRequest.swift; path = Source/Siesta/Request/HardWiredRequest.swift; sourceTree = "<group>"; };
 		79E36AF484D733883519C64065E2D9B8 /* Pods_TVMaze_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVMaze_Viewer.framework; path = "Pods-TVMaze Viewer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE76E00030309C4E94466EB639AF894 /* Pods-TVMaze Viewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze Viewer-Info.plist"; sourceTree = "<group>"; };
 		7DD5D779E5BD4BF43F2C644AD5E74926 /* Pods-TVMaze Viewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVMaze Viewer-dummy.m"; sourceTree = "<group>"; };
-		83143CE90582B1EE36804A1A38C22886 /* URL+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Siesta.swift"; path = "Source/Siesta/Support/URL+Siesta.swift"; sourceTree = "<group>"; };
+		8347580E2AF8CF46FBD817C52C269CD2 /* Siesta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-prefix.pch"; sourceTree = "<group>"; };
+		857586A68BBCB54923F819040BAF4E22 /* Networking-URLSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Networking-URLSession.swift"; path = "Source/Siesta/Networking-URLSession.swift"; sourceTree = "<group>"; };
 		885A8250ED1D13BF64A77820F496CB89 /* Pods-TVMaze ViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze ViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		88B33D2E46AC19F7A5B120BA1AF87AFC /* Pods-TVMaze Viewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVMaze Viewer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B0A5F579AC86A4CACD5F0246049FDA5 /* RequestCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCallbacks.swift; path = Source/Siesta/Request/RequestCallbacks.swift; sourceTree = "<group>"; };
 		8DBF4D46410E7F364A2B5511BA63C7BA /* Pods-TVMaze ViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze ViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		918A5C3473D999FF537457686F8E63AA /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Source/Siesta/Entity.swift; sourceTree = "<group>"; };
 		96532EC7786CA1C48EE6124C6CD45083 /* Pods-TVMaze ViewerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVMaze ViewerUITests-umbrella.h"; sourceTree = "<group>"; };
-		989DF4D46707CB43E169AAAAABDD2F18 /* PipelineProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineProcessing.swift; path = Source/Siesta/Pipeline/PipelineProcessing.swift; sourceTree = "<group>"; };
+		97057E3D37425BE09963A9FAE72A9382 /* Siesta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Siesta-Info.plist"; sourceTree = "<group>"; };
 		9B71438AFA3C232C5F54FF466212CD4A /* Pods-TVMaze ViewerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVMaze ViewerTests-umbrella.h"; sourceTree = "<group>"; };
+		9BD3E671A686E6056B89D660CACED45B /* SiestaUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SiestaUI.h; path = Source/Siesta/Support/SiestaUI.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EF2E68A8D62ED1C2D342163728491F9 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Siesta/Request/Request.swift; sourceTree = "<group>"; };
-		A6C3356D25911F689EA45D01F5F49A14 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Source/Siesta/Service.swift; sourceTree = "<group>"; };
+		A81CE8C820AF75C7B17B1CA0A1D9E7E7 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Siesta/Configuration.swift; sourceTree = "<group>"; };
 		A87BB761FAA9E08CC7A28A2CC7555831 /* Pods-TVMaze ViewerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze ViewerTests-Info.plist"; sourceTree = "<group>"; };
-		A891DA2457392DB3D1EB09A80612E12D /* SiestaUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SiestaUI.h; path = Source/Siesta/Support/SiestaUI.h; sourceTree = "<group>"; };
-		A96589070AE6215874F12F845E673133 /* Siesta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siesta.xcconfig; sourceTree = "<group>"; };
-		AE3846A0D998A1730BBD156B5B541896 /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = Source/Siesta/Networking.swift; sourceTree = "<group>"; };
-		AE97B1E74B9D54CD7E2A0E47ED0D0ED6 /* Siesta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-umbrella.h"; sourceTree = "<group>"; };
-		AF1F3B76B3D3447C8E64EC891B0FA41B /* Regex+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Regex+Siesta.swift"; path = "Source/Siesta/Support/Regex+Siesta.swift"; sourceTree = "<group>"; };
+		AEC1D275C74BD38D79A570DAEF81D3D8 /* WeakCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeakCache.swift; path = Source/Siesta/Support/WeakCache.swift; sourceTree = "<group>"; };
+		AF272CFA8D7D3D4B366BC4CF84F5DF00 /* Regex+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Regex+Siesta.swift"; path = "Source/Siesta/Support/Regex+Siesta.swift"; sourceTree = "<group>"; };
 		AFD599EBE75286912100E7854AEFCBBF /* Siesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Siesta.framework; path = Siesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17962A520836EFD88E97DABF5F5ADCB /* Pods-TVMaze ViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze ViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B252C6AC1DD3CA8F60DD1B967523B504 /* LiveRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiveRequest.swift; path = Source/Siesta/Request/LiveRequest.swift; sourceTree = "<group>"; };
-		B941B0D1715472CA9E737D80AD793710 /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Source/Siesta/Entity.swift; sourceTree = "<group>"; };
-		BD03D75D58F930BE942A6237D2742198 /* Progress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Progress.swift; path = Source/Siesta/Support/Progress.swift; sourceTree = "<group>"; };
-		C41FC1D21DB4DE16996AE17360D75F3A /* ResponseTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseTransformer.swift; path = Source/Siesta/Pipeline/ResponseTransformer.swift; sourceTree = "<group>"; };
-		C5985CBCB8FE0F28DEA99E46452CD073 /* Optional+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Siesta.swift"; path = "Source/Siesta/Support/Optional+Siesta.swift"; sourceTree = "<group>"; };
-		C850B99B4AC073F68695028AEE313E67 /* PipelineConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PipelineConfiguration.swift; path = Source/Siesta/Pipeline/PipelineConfiguration.swift; sourceTree = "<group>"; };
+		B323C09ECD2858A9261BBAF142D80ED2 /* RemoteImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RemoteImageView.swift; path = Source/SiestaUI/RemoteImageView.swift; sourceTree = "<group>"; };
+		BEB15F89354064AF1F0F9FA9D5CE03BD /* GCD+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GCD+Siesta.swift"; path = "Source/Siesta/Support/GCD+Siesta.swift"; sourceTree = "<group>"; };
+		C37E349C619B870EF4F622FF5D6B1706 /* ProgressTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressTracker.swift; path = Source/Siesta/Request/ProgressTracker.swift; sourceTree = "<group>"; };
 		C8B48161970E5E6A78BB48592B0641C2 /* Pods-TVMaze ViewerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze ViewerUITests-Info.plist"; sourceTree = "<group>"; };
-		CB017B57CE440FB672A199D69CAD40B5 /* OpenEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenEnum.swift; path = Source/Siesta/Support/OpenEnum.swift; sourceTree = "<group>"; };
+		C9648074342A60E559ED5307481CB9EB /* RequestCreation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCreation.swift; path = Source/Siesta/Request/RequestCreation.swift; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CC1A9CBF131D80F39E5D624E79485CE1 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Source/Siesta/Resource/Resource.swift; sourceTree = "<group>"; };
+		CE28D2F3951C8B721994A52AA447D32F /* RequestCallbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCallbacks.swift; path = Source/Siesta/Request/RequestCallbacks.swift; sourceTree = "<group>"; };
 		CE449ECF4A6D4F01EECBD185CBE30074 /* Pods-TVMaze ViewerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVMaze ViewerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEDA984CFA9E635F66D00A66FD71B96E /* String+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Siesta.swift"; path = "Source/Siesta/Support/String+Siesta.swift"; sourceTree = "<group>"; };
 		D2A53385DF29FC90B1B89A9AA2787F8C /* Pods_TVMaze_ViewerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVMaze_ViewerUITests.framework; path = "Pods-TVMaze ViewerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D361FAD4653E5B92EFDF79870BD9DE90 /* RequestChaining.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestChaining.swift; path = Source/Siesta/Request/RequestChaining.swift; sourceTree = "<group>"; };
+		D372FD6500826E7C2FE54B4AC69291B2 /* DebugFormatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugFormatting.swift; path = Source/Siesta/Support/DebugFormatting.swift; sourceTree = "<group>"; };
+		D3E2F0E84C0014DE382C16BB58358189 /* ResourceStatusOverlay.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ResourceStatusOverlay.xib; path = Source/SiestaUI/ResourceStatusOverlay.xib; sourceTree = "<group>"; };
 		D61EB6280698C9320E0E524857DC7D54 /* Pods-TVMaze Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVMaze Viewer.release.xcconfig"; sourceTree = "<group>"; };
-		D7E9D09EBE50CC76533CE8E893565EC3 /* DebugFormatting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugFormatting.swift; path = Source/Siesta/Support/DebugFormatting.swift; sourceTree = "<group>"; };
-		DA9E2442568D6936EBEFC1891D4A617B /* ARC+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ARC+Siesta.swift"; path = "Source/Siesta/Support/ARC+Siesta.swift"; sourceTree = "<group>"; };
-		DDD3F7FB8AD82BA2DE1413C1B34BA12F /* String+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Siesta.swift"; path = "Source/Siesta/Support/String+Siesta.swift"; sourceTree = "<group>"; };
-		E2306A51AB5566F74575194A8DB0AFA4 /* Siesta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siesta-prefix.pch"; sourceTree = "<group>"; };
+		D76529B85D2CBB6098C5AEBB61D086CC /* ResourceNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceNavigation.swift; path = Source/Siesta/Resource/ResourceNavigation.swift; sourceTree = "<group>"; };
+		DC61EB0A352EE24C764B0D76A5ADBA2E /* Siesta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Siesta-dummy.m"; sourceTree = "<group>"; };
+		E4BFE9C4ED6F3AF85119D6FD272BF140 /* Collection+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Siesta.swift"; path = "Source/Siesta/Support/Collection+Siesta.swift"; sourceTree = "<group>"; };
+		E4D4C73D23E40DF2A92E043B1B3B375C /* ResponseTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseTransformer.swift; path = Source/Siesta/Pipeline/ResponseTransformer.swift; sourceTree = "<group>"; };
 		E5F7A0F602CF0F772061095533414CF3 /* Pods-TVMaze Viewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVMaze Viewer-umbrella.h"; sourceTree = "<group>"; };
-		E8E46E1D92126B4442BF3EF587504193 /* Siesta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Siesta-Info.plist"; sourceTree = "<group>"; };
-		E91DAA301AFCA315D1D57A799063524E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Siesta/Configuration.swift; sourceTree = "<group>"; };
-		EBD3E192733DCB159E41B442F0984463 /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Source/Siesta/Support/Logging.swift; sourceTree = "<group>"; };
+		E7CB3C83B1E00E0C1AD9F06185131C3A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Siesta/Request/Request.swift; sourceTree = "<group>"; };
 		F5A0914429591315520B708A80717785 /* Pods-TVMaze ViewerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVMaze ViewerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6A1FC233B3CA8B3AB74FFC286151713 /* URL+Siesta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Siesta.swift"; path = "Source/Siesta/Support/URL+Siesta.swift"; sourceTree = "<group>"; };
 		FA895FACA1F424C78800FE7BE7513B35 /* Pods_TVMaze_ViewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TVMaze_ViewerTests.framework; path = "Pods-TVMaze ViewerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC158C8885037818226B9B9DCC730733 /* ResourceNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceNavigation.swift; path = Source/Siesta/Resource/ResourceNavigation.swift; sourceTree = "<group>"; };
 		FDD20A5B363AC62133AE019DB143D6F0 /* Pods-TVMaze Viewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVMaze Viewer-frameworks.sh"; sourceTree = "<group>"; };
-		FE952703FD75855BFECEBE685B1970AB /* Ω_Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ω_Deprecations.swift"; path = "Source/Siesta/Support/Ω_Deprecations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +211,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		019E38024BC3DDF5B52A161601093166 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D5D30214E5ECD57F44F339F87C259F /* Siesta.modulemap */,
+				6CEB2B73A5E68789164700D9550E5948 /* Siesta.xcconfig */,
+				DC61EB0A352EE24C764B0D76A5ADBA2E /* Siesta-dummy.m */,
+				97057E3D37425BE09963A9FAE72A9382 /* Siesta-Info.plist */,
+				8347580E2AF8CF46FBD817C52C269CD2 /* Siesta-prefix.pch */,
+				60F01AD7916DD803593C104E920A7FE7 /* Siesta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Siesta";
+			sourceTree = "<group>";
+		};
 		01D8012C4F2F80A33F5E9A86FE58DFCF /* Pods-TVMaze ViewerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,60 +241,82 @@
 			path = "Target Support Files/Pods-TVMaze ViewerTests";
 			sourceTree = "<group>";
 		};
-		2E88226855AEC6B1402993ED7D1275CA /* Core */ = {
+		2AE895BDBAC7A934BEC2FD3352A90A63 /* Siesta */ = {
 			isa = PBXGroup;
 			children = (
-				DA9E2442568D6936EBEFC1891D4A617B /* ARC+Siesta.swift */,
-				5AE00FE96ABF3AB26DB096B86578C70D /* Collection+Siesta.swift */,
-				E91DAA301AFCA315D1D57A799063524E /* Configuration.swift */,
-				0F6F109ED499A399442237D561FAACFB /* ConfigurationPatternConvertible.swift */,
-				D7E9D09EBE50CC76533CE8E893565EC3 /* DebugFormatting.swift */,
-				B941B0D1715472CA9E737D80AD793710 /* Entity.swift */,
-				5FF66A64CE203EE662B074C28E551B53 /* EntityCache.swift */,
-				38FAF8D30A73DAEE344365BAC0FA3428 /* GCD+Siesta.swift */,
-				5DB11EE7910AA0CD612DC2BEDC951354 /* HardWiredRequest.swift */,
-				B252C6AC1DD3CA8F60DD1B967523B504 /* LiveRequest.swift */,
-				EBD3E192733DCB159E41B442F0984463 /* Logging.swift */,
-				AE3846A0D998A1730BBD156B5B541896 /* Networking.swift */,
-				33792360498E2472E11236FF3D9CC0DF /* Networking-URLSession.swift */,
-				20C212E1F023669E187B7696DC39B4C3 /* NetworkRequest.swift */,
-				CB017B57CE440FB672A199D69CAD40B5 /* OpenEnum.swift */,
-				C5985CBCB8FE0F28DEA99E46452CD073 /* Optional+Siesta.swift */,
-				C850B99B4AC073F68695028AEE313E67 /* PipelineConfiguration.swift */,
-				989DF4D46707CB43E169AAAAABDD2F18 /* PipelineProcessing.swift */,
-				BD03D75D58F930BE942A6237D2742198 /* Progress.swift */,
-				0870404924FB22B6CBCD5EEB116B6037 /* ProgressTracker.swift */,
-				AF1F3B76B3D3447C8E64EC891B0FA41B /* Regex+Siesta.swift */,
-				9EF2E68A8D62ED1C2D342163728491F9 /* Request.swift */,
-				8B0A5F579AC86A4CACD5F0246049FDA5 /* RequestCallbacks.swift */,
-				0323277446120D3CB940DDA2B6E23C1C /* RequestChaining.swift */,
-				3F354E4B34F0E3C20D01CEBE46119FFB /* RequestCreation.swift */,
-				0F40D498B97FE3DB5B22084E94986080 /* RequestError.swift */,
-				CC1A9CBF131D80F39E5D624E79485CE1 /* Resource.swift */,
-				FC158C8885037818226B9B9DCC730733 /* ResourceNavigation.swift */,
-				19B91B79E3CB2706B1AA5D2CF86CF01D /* ResourceObserver.swift */,
-				C41FC1D21DB4DE16996AE17360D75F3A /* ResponseTransformer.swift */,
-				A6C3356D25911F689EA45D01F5F49A14 /* Service.swift */,
-				5800FC35E8F3D5E8743C615D001FC96C /* Siesta.h */,
-				45AD8B817D6D5E064194DA05EF6154E9 /* Siesta-ObjC.swift */,
-				A891DA2457392DB3D1EB09A80612E12D /* SiestaUI.h */,
-				00BDBE51EA2AF74AE03E3785E4D598FB /* StandardTransformers.swift */,
-				DDD3F7FB8AD82BA2DE1413C1B34BA12F /* String+Siesta.swift */,
-				83143CE90582B1EE36804A1A38C22886 /* URL+Siesta.swift */,
-				4D4533449415C71B4CAE7BD4818636C6 /* WeakCache.swift */,
-				FE952703FD75855BFECEBE685B1970AB /* Ω_Deprecations.swift */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		5B92B0F6EE61BB0F7F8A8F7C7AF28672 /* Siesta */ = {
-			isa = PBXGroup;
-			children = (
-				2E88226855AEC6B1402993ED7D1275CA /* Core */,
-				A94BFE6D008F6EFC3ABBD368398A8CFD /* Support Files */,
+				827F909D1092AD028F24E84B17FAF4F2 /* Core */,
+				019E38024BC3DDF5B52A161601093166 /* Support Files */,
+				57B84E21CBEC489CFD14313E8831F04E /* UI */,
 			);
 			name = Siesta;
 			path = Siesta;
+			sourceTree = "<group>";
+		};
+		4521F354AC57A8AFAE3D16234EB870CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE895BDBAC7A934BEC2FD3352A90A63 /* Siesta */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57B84E21CBEC489CFD14313E8831F04E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				07464557F70A9B31409B8FE76218B49C /* NetworkActivityIndicator.swift */,
+				B323C09ECD2858A9261BBAF142D80ED2 /* RemoteImageView.swift */,
+				1492C34A11BF6BBCE05BA6A0E39245AD /* ResourceStatusOverlay.swift */,
+				09145A5FE602C93F6835385608F465D2 /* SiestaUI-ObjC.swift */,
+				69A0EE31C0FEAAD546694A19FA4E667E /* Ω_UI_Deprecations.swift */,
+				97271A7A0484E1839CCDB2F6814F2140 /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		827F909D1092AD028F24E84B17FAF4F2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				70A7EEC71C3CBA39BF7C93769612114E /* ARC+Siesta.swift */,
+				E4BFE9C4ED6F3AF85119D6FD272BF140 /* Collection+Siesta.swift */,
+				A81CE8C820AF75C7B17B1CA0A1D9E7E7 /* Configuration.swift */,
+				7313A18FFD024F827BA89A5C5FD7EB5D /* ConfigurationPatternConvertible.swift */,
+				D372FD6500826E7C2FE54B4AC69291B2 /* DebugFormatting.swift */,
+				918A5C3473D999FF537457686F8E63AA /* Entity.swift */,
+				25460B488A99E7AF1F45256011A02B21 /* EntityCache.swift */,
+				BEB15F89354064AF1F0F9FA9D5CE03BD /* GCD+Siesta.swift */,
+				798D106671CD3BD185A820ABE2C1F74D /* HardWiredRequest.swift */,
+				25DC715215599A50D9DED7A3FD63CF1B /* LiveRequest.swift */,
+				0334061FB9A3D8423BFCC4E07F6CE183 /* Logging.swift */,
+				679431BE292DEE688944AA724495175A /* Networking.swift */,
+				857586A68BBCB54923F819040BAF4E22 /* Networking-URLSession.swift */,
+				755D14E65F0FCB9E3B0CA36D4AC5202B /* NetworkRequest.swift */,
+				4646731B4630A1DB217E294741CC1F1B /* OpenEnum.swift */,
+				1FFD871557BE44FEA565467793E31D65 /* Optional+Siesta.swift */,
+				04645D6CEEC3370CA01EF410C636599F /* PipelineConfiguration.swift */,
+				49BFE4C89B79150BB88645F34F655840 /* PipelineProcessing.swift */,
+				5FBE383400C2DDFFA82E39D730950DD4 /* Progress.swift */,
+				C37E349C619B870EF4F622FF5D6B1706 /* ProgressTracker.swift */,
+				AF272CFA8D7D3D4B366BC4CF84F5DF00 /* Regex+Siesta.swift */,
+				E7CB3C83B1E00E0C1AD9F06185131C3A /* Request.swift */,
+				CE28D2F3951C8B721994A52AA447D32F /* RequestCallbacks.swift */,
+				D361FAD4653E5B92EFDF79870BD9DE90 /* RequestChaining.swift */,
+				C9648074342A60E559ED5307481CB9EB /* RequestCreation.swift */,
+				2580D4C6A20940D4D5E4B8EAA5DB9398 /* RequestError.swift */,
+				0DADF4CEB12D9F37BE9BD8AACC507ECB /* Resource.swift */,
+				D76529B85D2CBB6098C5AEBB61D086CC /* ResourceNavigation.swift */,
+				077EA20666CD7979A916F4A769636BB1 /* ResourceObserver.swift */,
+				E4D4C73D23E40DF2A92E043B1B3B375C /* ResponseTransformer.swift */,
+				2027F153EA7909FE918F070B79ED62FB /* Service.swift */,
+				4AE77D12084999BA909D5ADB552CE061 /* Siesta.h */,
+				57D90B50D303B92B461D5800C3BA77EB /* Siesta-ObjC.swift */,
+				9BD3E671A686E6056B89D660CACED45B /* SiestaUI.h */,
+				0889D8113E02215EB1618F186A8D7E85 /* StandardTransformers.swift */,
+				CEDA984CFA9E635F66D00A66FD71B96E /* String+Siesta.swift */,
+				F6A1FC233B3CA8B3AB74FFC286151713 /* URL+Siesta.swift */,
+				AEC1D275C74BD38D79A570DAEF81D3D8 /* WeakCache.swift */,
+				38B337F338356921C3214FAABCD1B58C /* Ω_Deprecations.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		896D4ADCBA20EFC8EE964CDDD8A12519 /* Products */ = {
@@ -280,6 +328,14 @@
 				AFD599EBE75286912100E7854AEFCBBF /* Siesta.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		97271A7A0484E1839CCDB2F6814F2140 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2F0E84C0014DE382C16BB58358189 /* ResourceStatusOverlay.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		9A1B3A5C7170B646B068FF5A9DDE18EE /* Pods-TVMaze ViewerUITests */ = {
@@ -306,20 +362,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A94BFE6D008F6EFC3ABBD368398A8CFD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D190EB70FDF272D1BF9856FBDDE2BD9 /* Siesta.modulemap */,
-				A96589070AE6215874F12F845E673133 /* Siesta.xcconfig */,
-				12363CB2EF3D676B828B5A8BF79B4220 /* Siesta-dummy.m */,
-				E8E46E1D92126B4442BF3EF587504193 /* Siesta-Info.plist */,
-				E2306A51AB5566F74575194A8DB0AFA4 /* Siesta-prefix.pch */,
-				AE97B1E74B9D54CD7E2A0E47ED0D0ED6 /* Siesta-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Siesta";
-			sourceTree = "<group>";
-		};
 		C2E467630B955F82EC740471F350BBE5 /* Pods-TVMaze Viewer */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,20 +379,12 @@
 			path = "Target Support Files/Pods-TVMaze Viewer";
 			sourceTree = "<group>";
 		};
-		C3C739F93FDA28B6A70159A4668680E0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B92B0F6EE61BB0F7F8A8F7C7AF28672 /* Siesta */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C3C739F93FDA28B6A70159A4668680E0 /* Pods */,
+				4521F354AC57A8AFAE3D16234EB870CC /* Pods */,
 				896D4ADCBA20EFC8EE964CDDD8A12519 /* Products */,
 				DD7CF89A790989F44B1EECEF6904D3CB /* Targets Support Files */,
 			);
@@ -476,9 +510,9 @@
 			buildConfigurationList = 2A29D72542AA6B0943E0938177323D54 /* Build configuration list for PBXNativeTarget "Siesta" */;
 			buildPhases = (
 				1487BA3B128193D39645022CD3BDA88B /* Headers */,
-				ABD3A1B8E6D3437D64B43C718B640034 /* Sources */,
+				FEA586D5D4E4B608597BFC43FEDFE952 /* Sources */,
 				0A3EC71DBCDE13F48B75C6EA6FC0AEC3 /* Frameworks */,
-				21A5A95C45ADC6EE6FE133AFDF3FC8B0 /* Resources */,
+				122BC5823FD9D3151D95324CE33008FD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -519,14 +553,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C680E63A9F063BFEBE6010036AE8BD7 /* Resources */ = {
+		122BC5823FD9D3151D95324CE33008FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F357A85B4CC0C6BA403C2FA325C4B638 /* ResourceStatusOverlay.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21A5A95C45ADC6EE6FE133AFDF3FC8B0 /* Resources */ = {
+		1C680E63A9F063BFEBE6010036AE8BD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -566,56 +601,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABD3A1B8E6D3437D64B43C718B640034 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C61FCE4BC9F7C651391608900162B4A /* ARC+Siesta.swift in Sources */,
-				201C731C5A26C0D579ECB6AF8EA1DA01 /* Collection+Siesta.swift in Sources */,
-				C378A192D3D35F2B5661F85D61421302 /* Configuration.swift in Sources */,
-				F8484408A0A6025E4A02CC98BA890639 /* ConfigurationPatternConvertible.swift in Sources */,
-				47627A4529146E5ECF92D23969281E3F /* DebugFormatting.swift in Sources */,
-				8F09DF2BE7B1C52B741BEA6D4262BA16 /* Entity.swift in Sources */,
-				7CC62159EC068D5877280D3AAE786C1A /* EntityCache.swift in Sources */,
-				63E6B05220C523DC0E2544BF1910EE91 /* GCD+Siesta.swift in Sources */,
-				D980401D65207E429A0AB310C9BFD849 /* HardWiredRequest.swift in Sources */,
-				C1C684290E384A78563E7EF6A7B9CE40 /* LiveRequest.swift in Sources */,
-				8B73C2E96F17889B38C2580A7FF98CE9 /* Logging.swift in Sources */,
-				70A20751DC66F23CC5B03169AA48F544 /* Networking-URLSession.swift in Sources */,
-				1745783EB98C897C5BFAAE230D734CEB /* Networking.swift in Sources */,
-				72F35E3EB444CDBB911C9E673A60D131 /* NetworkRequest.swift in Sources */,
-				E48D566A63D6D3AD4C73B1AB0E13EB09 /* OpenEnum.swift in Sources */,
-				5417724E7F285BBC8FB77042F392FC38 /* Optional+Siesta.swift in Sources */,
-				7D683FF2C008BB2E2063B3545E302EB9 /* PipelineConfiguration.swift in Sources */,
-				F0814F89592E8B863B06750DB0A45D0B /* PipelineProcessing.swift in Sources */,
-				F616C0B7D7AA0800D88AEF23BFCB03D2 /* Progress.swift in Sources */,
-				1C0643118E9D86849707E21C2F68EBA8 /* ProgressTracker.swift in Sources */,
-				1EE26124176C2C346203DB4B5B6B8F7F /* Regex+Siesta.swift in Sources */,
-				C1F1534EF477E5B273F52FDD9CA81500 /* Request.swift in Sources */,
-				DE3A6B0657F6E5DE15B691A3555F898F /* RequestCallbacks.swift in Sources */,
-				FB4CADF84FB4E16003DE3D933D48AB52 /* RequestChaining.swift in Sources */,
-				D60113514DEBB0A51C7E1D54E2D483A7 /* RequestCreation.swift in Sources */,
-				D4C903EFFE3AFAC6953081FA033D8199 /* RequestError.swift in Sources */,
-				98257F70E7BE853FF1352A927D7CA7B2 /* Resource.swift in Sources */,
-				468A308A181C85350269CE1DD71261D3 /* ResourceNavigation.swift in Sources */,
-				47F77757A2E3D140308C892149FDADEF /* ResourceObserver.swift in Sources */,
-				FA8C97C3377BF05E502C4E7E25794A6A /* ResponseTransformer.swift in Sources */,
-				B93D143040C8AAD70F3D957C1F941E29 /* Service.swift in Sources */,
-				661AE9707CEB89E0E6A00A2C9FBB97A1 /* Siesta-dummy.m in Sources */,
-				97469E593FA739A9022C66771A3491C5 /* Siesta-ObjC.swift in Sources */,
-				FF2E73C27347677D6600346180E2B8D5 /* StandardTransformers.swift in Sources */,
-				2B09CB901F249ACA1595DFD38389C0CC /* String+Siesta.swift in Sources */,
-				421EE3355755EAA3CBF503EA36ABB2DB /* URL+Siesta.swift in Sources */,
-				8F4FB64CDEA2EF6074E4424E7A866AB0 /* WeakCache.swift in Sources */,
-				8F071221C3163AE1DB120AE96DA98BB1 /* Ω_Deprecations.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C7E6D8A4637ED5FD89AE64267BA79BA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F22533ADB5A91649D13238DA066C222 /* Pods-TVMaze ViewerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA586D5D4E4B608597BFC43FEDFE952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3450E492CC4D38EC2022F3BD89A84C /* ARC+Siesta.swift in Sources */,
+				7087A96D58769788C7303C74CC4323F4 /* Collection+Siesta.swift in Sources */,
+				9C4713090063835090AF013EE9DF4937 /* Configuration.swift in Sources */,
+				5C8EC0BDCCCB5B5D71988BD28B946613 /* ConfigurationPatternConvertible.swift in Sources */,
+				2425CC8A8FB3FAE3E54FDD5822D4270B /* DebugFormatting.swift in Sources */,
+				D46A227577515B7402DC78A8BE575E27 /* Entity.swift in Sources */,
+				A29C2493A5D97C72322B61DD86283C8E /* EntityCache.swift in Sources */,
+				06CDB35FC780C980FE9659BC6F7EBF3F /* GCD+Siesta.swift in Sources */,
+				DC1D800D5B3CCE03959814BAA7F5978F /* HardWiredRequest.swift in Sources */,
+				1D68FA8993359A2ECB4D58D69FA27BED /* LiveRequest.swift in Sources */,
+				830D80EBE4674513579686A528E8AC8B /* Logging.swift in Sources */,
+				B62DBA4E842CFDFE24DBD398A38BD8AF /* NetworkActivityIndicator.swift in Sources */,
+				0C687B06EBB0EE372665BA790FE4FC40 /* Networking-URLSession.swift in Sources */,
+				116A02F5F4F70421416331E0D438E66A /* Networking.swift in Sources */,
+				A5C1BD7BF43E5C50B711B3C67D148097 /* NetworkRequest.swift in Sources */,
+				E8E9C86054CED0453C9C6474575467FD /* OpenEnum.swift in Sources */,
+				6BA63161432B14C53BD25EAE57EEFCA9 /* Optional+Siesta.swift in Sources */,
+				094D63D441E96A04297B008A9F118FDE /* PipelineConfiguration.swift in Sources */,
+				1B9298BA7AAA2420CE2B765DE0E801AE /* PipelineProcessing.swift in Sources */,
+				A3D69836B0D5DE849DF450848E5149E0 /* Progress.swift in Sources */,
+				EC6B300C8D89B63177C1D9E9149D6D66 /* ProgressTracker.swift in Sources */,
+				8CF4FD24226BFDC209E570686F45C9BF /* Regex+Siesta.swift in Sources */,
+				50DF32C511292743BC7FADB9307A8F65 /* RemoteImageView.swift in Sources */,
+				B50A103D0DE9F73FD76BD467DD2755C2 /* Request.swift in Sources */,
+				284582ED7D00EEA32A602B81919CBA14 /* RequestCallbacks.swift in Sources */,
+				B58DCCFE9D63DE671089A549A8EAE2EB /* RequestChaining.swift in Sources */,
+				466D7198E117C16FFBCA2CF8AB6AFEB6 /* RequestCreation.swift in Sources */,
+				56B1FFF9C2FA41554FD5F28F77C1D988 /* RequestError.swift in Sources */,
+				1A7E47923CA0936F46F0A15E26F1CCC9 /* Resource.swift in Sources */,
+				6E26B0DEB77517543AB5E6AD94945357 /* ResourceNavigation.swift in Sources */,
+				4EB8E4D58A12A82752B7C4005BFD2A94 /* ResourceObserver.swift in Sources */,
+				EEA671A4C677A5378DBFA90F5391D7F8 /* ResourceStatusOverlay.swift in Sources */,
+				76AB812F80D012D5070F1C890B883A04 /* ResponseTransformer.swift in Sources */,
+				4A55E1B01844898A6026D16526C37FA1 /* Service.swift in Sources */,
+				44B3970B7A8B0FE75D31E96E98395E04 /* Siesta-dummy.m in Sources */,
+				2BB23D7017E13CF8CBE67B0391016133 /* Siesta-ObjC.swift in Sources */,
+				4D77935A1763DFAA63D8182B306F9510 /* SiestaUI-ObjC.swift in Sources */,
+				106BC45C076D71BDA8DEBD1C7978D4D4 /* StandardTransformers.swift in Sources */,
+				C3FFF62561F5F271863DF84F16E3B887 /* String+Siesta.swift in Sources */,
+				817389693E2FC0E245F3F5C8BC211377 /* URL+Siesta.swift in Sources */,
+				F2610157E95DB45ADB9A1AD3F0B76BD4 /* WeakCache.swift in Sources */,
+				9F71339E88799D50D299C8763F7F7A4D /* Ω_Deprecations.swift in Sources */,
+				973004419D42C6106A30B66DAE4F4A1A /* Ω_UI_Deprecations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,7 +724,7 @@
 		};
 		14F01013CE16B22B4FAD1066319B33EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A96589070AE6215874F12F845E673133 /* Siesta.xcconfig */;
+			baseConfigurationReference = 6CEB2B73A5E68789164700D9550E5948 /* Siesta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -899,7 +939,7 @@
 		};
 		9F772507B49B9F3D2860616221A9CA67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A96589070AE6215874F12F845E673133 /* Siesta.xcconfig */;
+			baseConfigurationReference = 6CEB2B73A5E68789164700D9550E5948 /* Siesta.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
