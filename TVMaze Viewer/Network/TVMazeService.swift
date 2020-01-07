@@ -42,12 +42,11 @@ final class TVMazeService: BaseService {
             
         }
         
-//        // Process response data as a json in order to don't use Dictionaries
-//        dependencies.service.configureTransformer("/r/*/.json") {
-//            // Input type inferred because the from: param takes Data.
-//            // Output type inferred because jsonDecoder.decode() will return RedditObject
-//            try self.dependencies.decoder.decode(ShowElement.self, from: $0.content)
-//        }
+        dependencies.service.configureTransformer("/shows/*") {
+            // Input type inferred because the from: param takes Data.
+            // Output type inferred because jsonDecoder.decode() will return RedditObject
+            try self.dependencies.decoder.decode(Show.self, from: $0.content)
+        }
     }
     
     func getShowEpisodes(showId: String) -> Resource {

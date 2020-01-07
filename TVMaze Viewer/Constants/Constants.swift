@@ -10,4 +10,10 @@
 struct Segues {
     static let showPreview = "show_preview"
     static let seriesPreview = "series_preview"
+    static let episodePreview = "episode_preview"
+}
+
+struct ReusableIdentifiers {
+    static let episodeCell = "EpisodeCell"
+    static let cellTVShow = "CellTVShow"
 }

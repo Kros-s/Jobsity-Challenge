@@ -51,6 +51,9 @@ struct Externals: Codable {
 // MARK: - Image
 struct Image: Codable {
     let medium, original: String
+    var secureImage: String {
+        return "https" + (String(self.original.dropFirst(4)))
+    }
 }
 
 // MARK: - Links

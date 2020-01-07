@@ -9,17 +9,20 @@
 import Siesta
 
 protocol ViewShowDelegate: class {
-    
+    func update(show: TVShow)
 }
 
 final class ShowPresenter {
     struct Dependencies {
         var service: BaseService = TVMazeService()
-        weak var view: ViewShowsDelegate?
-        init(view: ViewShowsDelegate) {
+        var mapper = ShowMapper()
+        weak var view: ViewShowDelegate?
+        init(view: ViewShowDelegate) {
             self.view = view
         }
     }
+    
+    var currentTVShow: TVShow!
     
     var dependencies: Dependencies
     
@@ -27,18 +30,19 @@ final class ShowPresenter {
         self.dependencies = dependencies
     }
     
-    func getShowInfo(tvShowId: String) {
-        dependencies.service.getShowEpisodes(showId: tvShowId).addObserver(self).loadIfNeeded()
+    func getShowInfo(tvShow: TVShow) {
+        currentTVShow = tvShow
+        dependencies.service.getShowEpisodes(showId: tvShow.id.description).addObserver(self).loadIfNeeded()
     }
 }
 
 extension ShowPresenter: ResourceObserver {
     func resourceChanged(_ resource: Resource, event: ResourceEvent) {
         print(resource.latestError)
-//        guard let response: [ShowElement] = resource.typedContent() else {
-//            return
-//        }
-//        let mappedResponse = dependencies.mapper.map(shows: response)
-//        dependencies.view?.update(shows: mappedResponse)
+        guard let response: Show = resource.typedContent() else {
+            return
+        }
+        dependencies.mapper.fulfill(tvshow: &currentTVShow, show: response)
+        dependencies.view?.update(show: currentTVShow)
     }
 }

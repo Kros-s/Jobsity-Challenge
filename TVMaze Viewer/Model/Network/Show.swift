@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: - APIShow
+// MARK: - Show
 struct Show: Codable {
     let id: Int
     let url: String
@@ -21,12 +21,12 @@ struct Show: Codable {
     let schedule: Schedule
     let rating: Rating
     let weight: Int
-    let network: Network
-    let externals: Externals
+    let network: Network?
+    let externals: Externals?
     let image: Image
-    let summary: String
+    let summary: String?
     let updated: Int
-    let links: APIShowLinks
+    let links: APIShowLinks?
     let embedded: Embedded
 
     enum CodingKeys: String, CodingKey {
@@ -44,16 +44,16 @@ struct Embedded: Codable {
 // MARK: - Episode
 struct Episode: Codable {
     let id: Int
-    let url: String
+    let url: String?
     let name: String
     let season, number: Int
-    let airdate: String
-    let airtime: String
-    let airstamp: Date
-    let runtime: Int
+    let airdate: String?
+    let airtime: String?
+    let airstamp: String?
+    let runtime: Int?
     let image: Image?
-    let summary: String
-    let links: EpisodeLinks
+    let summary: String?
+    let links: EpisodeLinks?
 
     enum CodingKeys: String, CodingKey {
         case id, url, name, season, number, airdate, airtime, airstamp, runtime, image, summary
@@ -63,7 +63,7 @@ struct Episode: Codable {
 
 // MARK: - EpisodeLinks
 struct EpisodeLinks: Codable {
-    let linksSelf: Previousepisode
+    let linksSelf: Previousepisode?
 
     enum CodingKeys: String, CodingKey {
         case linksSelf = "self"
@@ -72,13 +72,13 @@ struct EpisodeLinks: Codable {
 
 // MARK: - Previousepisode
 struct Previousepisode: Codable {
-    let href: String
+    let href: String?
 }
 
 
 // MARK: - APIShowLinks
 struct APIShowLinks: Codable {
-    let linksSelf, previousepisode: Previousepisode
+    let linksSelf, previousepisode: Previousepisode?
 
     enum CodingKeys: String, CodingKey {
         case linksSelf = "self"

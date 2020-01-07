@@ -8,11 +8,16 @@
 import Foundation
 
 struct TVShow {
+    let id: Int
     let showName: String
     let poster: String?
     let status: String
     let schedule: Schedule
     let summary: String
     let genres: [String]
-    var episodes: [Episode] = []
+    var generesDescription: String {
+        genres.reduce("", { return $0 + " " + $1 })
+    }
+    var episodes: [TVEpisode] = []
+    var numberOfSeasons: Int = 0
 }

@@ -41,7 +41,7 @@ final class ShowsTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellTVShow", for: indexPath) as! ShowsTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: ReusableIdentifiers.cellTVShow, for: indexPath) as! ShowsTableViewCell
         cell.delegate = self
         let show = shows[indexPath.row] as TVShow
         cell.title.text = show.showName
@@ -74,11 +74,6 @@ final class ShowsTableViewController: UITableViewController {
         if segue.identifier == Segues.showPreview {
             let destinationVC = segue.destination as! ShowViewController
             destinationVC.show = shows[selectedRow]
-//            destinationVC.view.backgroundColor = UIColor.clear
-//            destinationVC.preview.imageURL = posts[selectedRow].thumbnail
-//            destinationVC.posTtitle.text = posts[selectedRow].title
-//            destinationVC.stringUrl = posts[selectedRow].url
-//            destinationVC.renderPage()
         }
     }
     
@@ -131,7 +126,9 @@ extension ShowsTableViewController {
         expandableArea.addSubview(searchBar)
         searchBar.placeholder = "Search show here"
         searchBar.delegate = self
-
+        let textFiield = searchBar.value(forKey: "searchField") as? UITextField
+        textFiield?.textColor = .white
+        
         //LeftConstraint
         leftConstraint = searchBar.leftAnchor.constraint(equalTo: expandableArea.leftAnchor)
         leftConstraint.isActive = false
