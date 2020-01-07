@@ -9,26 +9,85 @@
 import XCTest
 @testable import TVMaze_Viewer
 
-class TVMaze_ViewerTests: XCTestCase {
+typealias MockClosure = (() -> ())?
 
+final class MockViewShowsDelegate: ViewShowsDelegate {
+    var execute: MockClosure = nil
+    var isUpdateMethodCalled = false
+    func update(shows: [TVShow]) {
+        isUpdateMethodCalled = true
+        execute?()
+    }
+    
+}
+
+final class MockViewShowDelegate: ViewShowDelegate {
+    var execute: MockClosure = nil
+    var isUpdateMethodCalled = false
+    
+    func update(show: TVShow) {
+        isUpdateMethodCalled = true
+        execute?()
+    }
+}
+
+
+final class TVMaze_ViewerTests: XCTestCase {
+    var presenter: ShowsPresenter!
+    var mockView: MockViewShowsDelegate!
+    var shows: [Shows] = []
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        mockView = MockViewShowsDelegate()
+        presenter = ShowsPresenter(dependencies: .init(view: mockView))
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func test_search_all_shows() {
+        var isFulFillComplete = false
+        
+        let expectation = self.expectation(description: "Loading data")
+        presenter.searchMovies("Doctor")
+        mockView.execute = {
+            isFulFillComplete = true
+            expectation.fulfill()
         }
+        waitForExpectations(timeout: 10, handler: nil)
+        XCTAssert(mockView.isUpdateMethodCalled)
+        XCTAssert(isFulFillComplete)
+        
     }
+}
 
+final class ShowPresenterTest: XCTestCase {
+    var presenter: ShowPresenter!
+    var mockView: MockViewShowDelegate!
+    
+    override func setUp() {
+        mockView = MockViewShowDelegate()
+        presenter = ShowPresenter(dependencies: .init(view: mockView))
+    }
+    
+    func test_search_serie_data() {
+        var isFulFillComplete = false
+        
+        let expectation = self.expectation(description: "Loading data")
+        presenter.getShowInfo(tvShow: getMockTVShow())
+        
+        mockView.execute = {
+            isFulFillComplete = true
+            expectation.fulfill()
+        }
+        
+        waitForExpectations(timeout: 10, handler: nil)
+        XCTAssert(mockView.isUpdateMethodCalled)
+        XCTAssert(isFulFillComplete)
+    }
+    
+    func getMockTVShow() -> TVShow {
+        return TVShow(id: 82, showName: "",
+               poster: nil,
+               status: "",
+               schedule: Schedule(time: "", days: []),
+               summary: "",
+               genres: [])
+    }
 }
